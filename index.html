@@ -1,0 +1,34 @@
+<!-- Number Guessing Game HTML -->
+<html>
+	<head>
+		<title>JavaScript Number Guess</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
+		<!--Linking CSS File-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--Linking Javascript File-->
+        <script type="text/javascript" src="javascript.js"></script>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
+        <!-- Linking Google Fonts -->
+        <<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	</head>
+	<body>
+		<div id="game">
+			<h1>Number Guessing Game</h1>
+			<div id="statusArea">
+				<p>I am thinking of a random number between 1 to 100. What is it?</p>
+			</div>
+			<input type="number" id="userGuess"/>
+			<div id="buttonArea" class="button">
+				Guess
+			</div>
+			<div id="historyArea">
+				<h3>Your Previous Guesses</h3>
+				<ol id="historyList">
+				</ol>
+			</div>
+			
+		</div>
+	</body>
+</html>
